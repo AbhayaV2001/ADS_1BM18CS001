@@ -9,14 +9,12 @@ struct Node {
   
 struct Node* Reverse(struct Node* head, int k) 
 { 
-    
     stack<Node*> mystack; 
     struct Node* current = head; 
     struct Node* prev = NULL; 
   
     while (current != NULL) { 
   
-        
         int count = 0; 
         while (current != NULL && count < k) { 
             mystack.push(current); 
@@ -24,10 +22,8 @@ struct Node* Reverse(struct Node* head, int k)
             count++; 
         } 
   
-        
         while (mystack.size() > 0) { 
   
-             
             if (prev == NULL) { 
                 prev = mystack.top(); 
                 head = prev; 
