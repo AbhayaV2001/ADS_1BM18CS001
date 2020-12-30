@@ -1,7 +1,7 @@
 #include<bits/stdc++.h> 
 using namespace std; 
   
-void findElements(int arr[], int n) 
+void solution(int arr[], int n) 
 { 
 	int first = INT_MIN,  
         	second = INT_MIN; 
@@ -33,7 +33,7 @@ int main()
 		int arr[n];
 		for(int i=0; i<n;i++)
 			cin>>arr[i];
-		findElements(arr, n); 
+		solution(arr, n); 
 	}
     	
     	return 0; 
