@@ -1,7 +1,7 @@
 #include<bits/stdc++.h> 
 using namespace std; 
   
-void printUnique(int l, int r) 
+void solution(int l, int r) 
 { 
     	for (int i=l ; i<=r ; i++) 
     	{ 
@@ -32,6 +32,6 @@ int main()
 	cout<<"\nR=";
 	cin>>r;
 	cout<<"\n";
-    	printUnique(l, r); 
+    	solution(l, r); 
     	return 0; 
 } 
